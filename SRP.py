@@ -457,7 +457,7 @@ PUSResult = PUS (load, min_load, max_load, PI, Pres, Pwf)
 #'''
 data = [[Structure,Well,round(PSEResult,4),ans,round(SPResult,2),ans2,PUSResult]]
 
-output_df = pd.DataFrame(data,columns=["Structure","Well","Pumping System Efficiency Value (%)","Remarks","Swabbing Parameter Analysis Value","Remarks","Pumping Unit System Analysis Remarks"])
+output_df = pd.DataFrame(data,columns=["Structure","Well","Pumping System Efficiency Value (%)","Remarks1","Swabbing Parameter Analysis Value","Remarks2","Pumping Unit System Analysis Remarks"])
 
 output_df=output_df.set_index('Structure')
 
