@@ -449,12 +449,12 @@ PUSResult = PUS (load, min_load, max_load, PI, Pres, Pwf)
 
 #st.write("Structure",Structure)
 #st.write("Well", Well)
-#a = '''st.write("Pumping System Efficiency Value (%)",round(PSEResult,4))
-#st.write("Remarks :", ans)
-#st.write("Swabbing Parameter Analysis Value",round(SPResult,2))
-#st.write("Remarks: ",ans2)
-#st.write("Pumping Unit System Analysis Remarks :",PUSResult)
-#'''
+a = '''st.write("Pumping System Efficiency Value (%)",round(PSEResult,4))
+st.write("Remarks :", ans)
+st.write("Swabbing Parameter Analysis Value",round(SPResult,2))
+st.write("Remarks: ",ans2)
+st.write("Pumping Unit System Analysis Remarks :",PUSResult)
+'''
 data = [[Structure,Well,round(PSEResult,4),round(SPResult,2),PUSResult]]
 
 output_df = pd.DataFrame(data,columns=["Structure","Well","Pumping System Efficiency Value (%)","Swabbing Parameter Analysis Value","Pumping Unit System Analysis Remarks"])
@@ -463,8 +463,8 @@ output_df=output_df.set_index('Structure')
 
 
 
-st.subheader('**Input Data **')
-st.write(df)
+#st.subheader('**Input Data **')
+#st.write(df)
 
 
 
