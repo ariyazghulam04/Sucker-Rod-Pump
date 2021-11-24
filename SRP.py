@@ -463,8 +463,8 @@ output_df=output_df.set_index('Structure')
 
 
 
-#st.subheader('**Input Data **')
-#st.write(df)
+st.subheader('**Input Data **')
+st.write(df)
 
 
 
