@@ -7,4 +7,3 @@ opencv-python-headless==4.5.3.56
 plotly==4.14.3
 openpyxl==3.0.5
 streamlit==1.8.1
-pyarrow==1.19.5
