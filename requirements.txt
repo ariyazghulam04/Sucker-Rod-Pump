@@ -4,7 +4,7 @@ tensorflow==2.8.0
 pandas==1.3.2
 Pillow==8.2.0
 opencv-python-headless==4.5.4.60
-plotly=3.0.7
+plotly=5.2.2
 openpyxl==3.0.5 
 streamlit==0.79.0
 xlrd==2.0.1
